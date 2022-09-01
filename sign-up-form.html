@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="images/imagewater.jpg" class="imageBig"/>
+    <div id="formContainer">
+        <h1>Welcome to Jammy</h1>
+        <form>
+            <div class="formRow">
+            <label for="name">Full Name</label>
+            <input name="name" type="name" placeholder="John Doe" required id="iName" />
+             </div>
+             <div class="formRow">
+                <label for="email">Email</label>
+                <input name="email" type="email" placeholder="Enter your Email here" required id="iEmail"/>
+             </div>
+             <div class="formRow">
+                 <label for="password">Password</label>
+                 <input name="password" type="password" placeholder="Enter your Password here" required id="iPassword"/>
+             </div>   
+             <div class="formRow submitRow">
+                <input name="submit" type="submit" value="Create Account" id="submit"/>
+                <p>Already have an account? <a href="#" class="loginLink">Log in</a></p>
+            </div>   
+        </form>
+        <h3 class="or">OR</h3>
+        <div class="moreSignups">
+            <div class="signupButton">
+                <img src="images/Googlegoogleicon.png" class="signupIcon"/> SignUp with Google
+            </div>
+            <div class="signupButton">
+                <img src="images/GitHub.png" class="signupIcon"/> SignUp with GitHub
+            </div>
+        </div>
+    </div>
+</body>
+</html>
